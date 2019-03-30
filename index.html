@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Weather Finder</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+</head>
+
+<body>
+  <div class="container ">
+    <div class="fl">
+      <div class="row">
+
+        <div class="card-panel  cyan lighten-3">
+          <div class="card-content center-align">
+            <span class="card-title   cyan lighten-3"
+              style="padding:20px; text-transform:uppercase; color:#212121;">Weather
+              Finder</span>
+            <div class="input-field black-text">
+              <input type="text" name="Place" id="place" placeholder="Enter country or state or Town name"
+                onkeyup="findKey()" />
+            </div>
+            <button type="button" class="waves-effect waves-light btn" onclick="find()">
+              Find Weather
+            </button>
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <span id="weatherResult">
+
+        </span>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./app.js" charset="utf-8"></script>
+</body>
+
+</html><img src="" alt="">

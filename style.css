@@ -1,0 +1,13 @@
+body {
+  box-sizing: border-box;
+}
+
+.fl {
+  /* width: 100%;
+  margin: 25vh 20vw; */
+
+}
+
+input::placeholder {
+  color: black;
+}
